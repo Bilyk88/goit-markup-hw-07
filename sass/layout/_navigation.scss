@@ -1,12 +1,12 @@
-.nav-list {
+.nav__list {
     display: flex;
     align-items: center;
 }
 
-.nav-list-item:not(:last-child) {
+.nav__item:not(:last-child) {
     margin-right: 50px;
 }
-.nav-link {
+.nav__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -23,7 +23,7 @@
     }
 }
 
-.current-page {
+.nav__link_page_current {
     position: relative;
     color: var(--accent-color);
 
