@@ -4,6 +4,8 @@
   --secondary-text-color: #757575;
   --primary-bg-color: #2F303A;
   --icon-color: #AFB1B8;
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
 }
 
 .visually-hidden {
@@ -18,7 +20,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   color: var(--primary-text-color);
 }
 
@@ -352,7 +354,7 @@ img {
 
 .logo {
   margin-right: 92px;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
